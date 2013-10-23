@@ -8,5 +8,3 @@ As the XSLT file utilitze this file and the feed will output formatted for a Rok
 I formatted the XSLT to take our feed urls (which come across as HTTPS) and convert them to HTTP
 The conversion simply takes a substring of everything after the : in https:// and preserves the url (as well as
 other urls that don't use HTTPS) and then appends http to the front of the string.
-
-Works great!
